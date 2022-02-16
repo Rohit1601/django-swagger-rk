@@ -13,7 +13,6 @@ except Exception:
 setup(
     # Metadata
     name='django-swagger-rk',
-    version='.'.join(map(str, django_swagger.VERSION)),
     description=description,
     long_description=longdesc,
     author='RK',
