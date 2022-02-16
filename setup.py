@@ -12,19 +12,19 @@ except Exception:
 
 setup(
     # Metadata
-    name='django-tastypie-swagger',
+    name='django-swagger-rk',
     version='.'.join(map(str, django_swagger.VERSION)),
     description=description,
     long_description=longdesc,
-    author='Concentric Sky',
-    author_email='code@concentricsky.com',
+    author='RK',
+    author_email='test',
     classifiers=[
         'Programming Language :: Python',
         'Environment :: Web Environment',
         'Framework :: Django',
     ],
-    url='https://github.com/concentricsky/django-tastypie-swagger',
-    download_url='https://github.com/concentricsky/django-tastypie-swagger/downloads',
+    url='https://github.com/Rohit1601/django-swagger-rk',
+    download_url='https://github.com/Rohit1601/django-swagger-rk/downloads',
     license='BSD',
     packages=['django_swagger'],
     include_package_data=True,
