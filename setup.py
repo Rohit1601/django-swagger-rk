@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-import tastypie_swagger
+import django_swagger
 
 description = "An adapter to use swagger-ui with django-tastypie"
 
@@ -13,7 +13,7 @@ except Exception:
 setup(
     # Metadata
     name='django-tastypie-swagger',
-    version='.'.join(map(str, tastypie_swagger.VERSION)),
+    version='.'.join(map(str, django_swagger.VERSION)),
     description=description,
     long_description=longdesc,
     author='Concentric Sky',
@@ -26,7 +26,7 @@ setup(
     url='https://github.com/concentricsky/django-tastypie-swagger',
     download_url='https://github.com/concentricsky/django-tastypie-swagger/downloads',
     license='BSD',
-    packages=['tastypie_swagger'],
+    packages=['django_swagger'],
     include_package_data=True,
     zip_safe=False,
 )
